@@ -1,0 +1,11 @@
+// Toggle mobile menu
+function toggleMenu() {
+  const navLinks = document.getElementById("navLinks");
+  navLinks.classList.toggle("active");
+}
+
+// Simple form handling (placeholder for now)
+document.querySelector("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Message feature coming soon!");
+});
